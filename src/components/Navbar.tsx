@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-
+import ThemeController from './ThemeController'
 function Navbar() {
 	return (
 		<div className="navbar bg-base-100 shadow-sm w-full absolute top-0 z-50">
@@ -73,7 +73,10 @@ function Navbar() {
 						</li>
 					</ul>
 				</div>
-				<a className="btn btn-primary">Login</a>
+				<div className="flex flex-row gap-2">
+					<a className="btn btn-primary">Login</a>
+					<ThemeController />
+				</div>
 			</div>
 		</div>
 	)
