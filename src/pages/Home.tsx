@@ -10,7 +10,7 @@ function Home() {
 						<p className="py-6">
 							Hello there! This is a simple starter project for my next project.
 						</p>
-						<Link to="/protected" className="btn btn-primary">
+						<Link to="/secondary" className="btn btn-primary">
 							Get Started
 						</Link>
 					</div>
