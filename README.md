@@ -2,6 +2,9 @@
 
 A modern React application starter template built with Vite, TypeScript, TailwindCSS, and DaisyUI.
 
+Honestly, I just got tired of setting up the same frontend. I usually couple this with an Amplify backend.
+In any case, hope this simple repo helps :)
+
 ## Features
 
 - ⚡️ **Vite** - Lightning fast build tool
